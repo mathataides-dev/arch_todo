@@ -1,16 +1,11 @@
-# arch_todo
+# To-Do with Proposed Arch
 
-A new Flutter project.
+This is a to-do app example with a flutter proposed architecture.
 
-## Getting Started
+## Architecture
 
-This project is a starting point for a Flutter application.
+The applied architecture is an architecture that works with layers, where the external layers know the internal layers, but the internals don't know the externals.
 
-A few resources to get you started if this is your first Flutter project:
+## Good Practices and Patterns
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project applies good programming practices and familiar patterns, such as SOLID principles, viewmodels, etc.
