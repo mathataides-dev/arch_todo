@@ -13,7 +13,11 @@ class ToDoLocalStorage {
     return _localStorage
         .fetchAll(_toDoKey) //
         .map(
-          (jsonToDos) => jsonToDos.map((p) => ToDoEntity.fromJson(p)).toList(),
+          (jsonToDos) =>
+              jsonToDos
+                  .map((p) => ToDoEntity.fromJson(p))
+                  .toList() //
+                ..sort((a, b) => a.title.compareTo(b.title)),
         );
   }
 

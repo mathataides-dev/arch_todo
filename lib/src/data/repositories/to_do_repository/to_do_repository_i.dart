@@ -7,7 +7,6 @@ import 'to_do_repository.dart';
 
 class ToDoRepositoryI implements ToDoRepository {
   final ToDoLocalStorage _toDoLocalStorage;
-
   ToDoRepositoryI(this._toDoLocalStorage);
 
   @override
